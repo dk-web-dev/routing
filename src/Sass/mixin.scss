@@ -1,0 +1,10 @@
+/* All Mixin store here */
+
+@mixin commonCss($font,$letter) {
+    color:$bg_color;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: $font;
+    letter-spacing: $letter;
+    
+  }
